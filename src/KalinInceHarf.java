@@ -25,6 +25,8 @@ public class KalinInceHarf {
             case 'ü':
                 System.out.println("'" + charecter + "'" + " ince sesli bir harftir.");
                 break;
+            default:
+                System.out.println("sesli bir harf giriniz");
         }
     }
 
@@ -34,6 +36,7 @@ public class KalinInceHarf {
         List<Character> hardVovelList = new ArrayList<>();
         List<Character> softVovelList = new ArrayList<>();
 
+        //kalın sesli harf listesi
         hardVovelList.add('A');
         hardVovelList.add('a');
         hardVovelList.add('I');
@@ -42,6 +45,8 @@ public class KalinInceHarf {
         hardVovelList.add('o');
         hardVovelList.add('U');
         hardVovelList.add('u');
+
+        //ince sesli harf listesi
         softVovelList.add('E');
         softVovelList.add('e');
         softVovelList.add('İ');
@@ -55,6 +60,8 @@ public class KalinInceHarf {
             System.out.println("'" + charecter + "'" + " kalın sesli bir harftir");
         } else if (softVovelList.contains(charecter)) {
             System.out.println("'" + charecter + "'" + " ince sesli bir harftir");
+        }else {
+            System.out.println("lütfen sesli bir harf giriniz");
         }
     }
 }

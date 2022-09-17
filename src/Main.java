@@ -44,36 +44,36 @@ public class Main {
         System.out.println("\n----ASAL SAYI BULMA-----");
 
         AsalSayi asalSayi = new AsalSayi();
-        asalSayi.SayiAsalMi(2);
+        asalSayi.SayiAsalMi(18);
 
 
-        System.out.println("\n----İNCE VE KALIN HARF KONTROLÜ-----");
+        System.out.println("\n----İNCE VE KALIN SESLİ HARF KONTROLÜ-----");
 
         KalinInceHarf kalinInceHarf = new KalinInceHarf();
-        kalinInceHarf.vovelControl('E');
+        kalinInceHarf.vovelControl('b');
 
 
-        System.out.println("\n----ALTERNATİF İNCE VE KALIN HARF KONTROLÜ-----");
+        System.out.println("\n----ALTERNATİF İNCE VE KALIN SESLİ HARF KONTROLÜ-----");
 
-        kalinInceHarf.alternativeVovelControl('o');
+        kalinInceHarf.alternativeVovelControl('c');
 
 
         System.out.println("\n----SÜPER SAYI BULMA-----");
 
         SuperSayi superSayi = new SuperSayi();
-        superSayi.SuperSayiHesapla(43112609);
+        superSayi.SuperSayiHesapla(3);
 
 
         System.out.println("\n----ARKADAŞ SAYI BULMA-----");
 
         ArkadasSayilar arkadasSayilar = new ArkadasSayilar();
-        arkadasSayilar.ArkadasSayiHesapla(220, 284);
+        arkadasSayilar.ArkadasSayiHesapla(10, 5);
 
 
         System.out.println("\n----SAYI BULMA-----");
 
         SayiBul sayiBul = new SayiBul();
-        sayiBul.SayiBulma(6);
+        sayiBul.SayiBulma(12);
 
 
     }
