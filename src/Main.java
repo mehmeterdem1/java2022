@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("HELLO WORLD!");
+        /*System.out.println("HELLO WORLD!");
 
         //değişken isimleri java'da camelCase yazılır..
         String ortaMetin = "ilginizi çekebilir";
@@ -38,7 +38,42 @@ public class Main {
 
         for (int i = 0; i < krediler.length; i++) {
             System.out.println(krediler[i]);
-        }
+        }*/
+
+
+        System.out.println("\n----ASAL SAYI BULMA-----");
+
+        AsalSayi asalSayi = new AsalSayi();
+        asalSayi.SayiAsalMi(2);
+
+
+        System.out.println("\n----İNCE VE KALIN HARF KONTROLÜ-----");
+
+        KalinInceHarf kalinInceHarf = new KalinInceHarf();
+        kalinInceHarf.vovelControl('E');
+
+
+        System.out.println("\n----ALTERNATİF İNCE VE KALIN HARF KONTROLÜ-----");
+
+        kalinInceHarf.alternativeVovelControl('o');
+
+
+        System.out.println("\n----SÜPER SAYI BULMA-----");
+
+        SuperSayi superSayi = new SuperSayi();
+        superSayi.SuperSayiHesapla(43112609);
+
+
+        System.out.println("\n----ARKADAŞ SAYI BULMA-----");
+
+        ArkadasSayilar arkadasSayilar = new ArkadasSayilar();
+        arkadasSayilar.ArkadasSayiHesapla(220, 284);
+
+
+        System.out.println("\n----SAYI BULMA-----");
+
+        SayiBul sayiBul = new SayiBul();
+        sayiBul.SayiBulma(6);
 
 
     }
