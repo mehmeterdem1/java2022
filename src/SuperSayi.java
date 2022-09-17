@@ -1,6 +1,6 @@
 public class SuperSayi{
 
-    public void SuperSayiHesapla(int number){
+    public void superSayiHesapla(int number){
 
         int bolenler;
         int superSayi = 0;

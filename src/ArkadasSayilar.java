@@ -1,5 +1,5 @@
 public class ArkadasSayilar {
-    public void ArkadasSayiHesapla(int number1, int number2) {
+    public void arkadasSayiHesapla(int number1, int number2) {
 
         int number1BolenlerToplam = 0;
         int number2BolenlerToplam = 0;

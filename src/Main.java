@@ -4,7 +4,7 @@ public class Main {
         System.out.println("\n----ASAL SAYI BULMA-----");
 
         AsalSayi asalSayi = new AsalSayi();
-        asalSayi.SayiAsalMi(3);
+        asalSayi.sayiAsalMi(3);
 
 
         System.out.println("\n----ENGİN HOCA ASAL SAYI BULMA-----");
@@ -27,19 +27,19 @@ public class Main {
         System.out.println("\n----SÜPER SAYI BULMA-----");
 
         SuperSayi superSayi = new SuperSayi();
-        superSayi.SuperSayiHesapla(3);
+        superSayi.superSayiHesapla(3);
 
 
         System.out.println("\n----ARKADAŞ SAYI BULMA-----");
 
         ArkadasSayilar arkadasSayilar = new ArkadasSayilar();
-        arkadasSayilar.ArkadasSayiHesapla(10, 5);
+        arkadasSayilar.arkadasSayiHesapla(10, 5);
 
 
         System.out.println("\n----SAYI BULMA-----");
 
         SayiBul sayiBul = new SayiBul();
-        sayiBul.SayiBulma(17);
+        sayiBul.sayiBulma(17);
 
 
     }

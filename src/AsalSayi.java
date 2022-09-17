@@ -7,7 +7,7 @@ public class AsalSayi {
         }
     }
 
-    public void SayiAsalMi(int number) {
+    public void sayiAsalMi(int number) {
 
         if (number > 0) {
             if (number > 3) {
