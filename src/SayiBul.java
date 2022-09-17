@@ -13,10 +13,7 @@ public class SayiBul {
             }
         }
 
-        if (isThere){
-            System.out.println("aranan sayı dizi içerisinde bulundu");
-        }else {
-                System.out.println("aranan sayı dizi içerisinde bulunamadı");
-            }
+        System.out.println("aranan sayı dizi içerisinde " + (isThere ? "bulundu" : "bulunmadı" ));
+
     }
 }

@@ -44,10 +44,16 @@ public class Main {
         System.out.println("\n----ASAL SAYI BULMA-----");
 
         AsalSayi asalSayi = new AsalSayi();
-        asalSayi.SayiAsalMi(18);
+        asalSayi.SayiAsalMi(3);
 
 
-        System.out.println("\n----İNCE VE KALIN SESLİ HARF KONTROLÜ-----");
+        System.out.println("\n----ENGİN HOCA ASAL SAYI BULMA-----");
+
+        AsalSayi enginHocaAsalSayi = new AsalSayi();
+        enginHocaAsalSayi.enginHocaAsalSayi(3);
+
+
+        /*System.out.println("\n----İNCE VE KALIN SESLİ HARF KONTROLÜ-----");
 
         KalinInceHarf kalinInceHarf = new KalinInceHarf();
         kalinInceHarf.vovelControl('b');
@@ -73,7 +79,9 @@ public class Main {
         System.out.println("\n----SAYI BULMA-----");
 
         SayiBul sayiBul = new SayiBul();
-        sayiBul.SayiBulma(12);
+        sayiBul.SayiBulma(17);*/
+
+
 
 
     }
