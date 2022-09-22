@@ -1,4 +1,6 @@
-import miniProjects.*;
+package intro;
+
+import intro.miniProjects.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -58,9 +60,9 @@ public class Main {
 
 
         Product product = new Product();
-        product.name = "Laptop";
-        product.id = 1;
-        product.description = "Asus Laptop";
+        product.setName("Laptop");
+        product.setid(1);
+        product.setdescription("Asus Laptop");
         product.price = 5000;
         product.stockAmount = 3;
 

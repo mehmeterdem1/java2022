@@ -1,4 +1,4 @@
-package miniProjects;
+package intro.miniProjects;
 
 public class SuperSayi{
 

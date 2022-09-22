@@ -1,4 +1,4 @@
-package miniProjects;
+package intro.miniProjects;
 
 import java.util.*;
 
@@ -6,11 +6,26 @@ public class KalinInceHarf {
     public void vovelControl(char charecter) {
 
         switch (charecter) {
-            case 'A', 'a', 'I', 'ı', 'O', 'o', 'U', 'u' ->
+            case 'A':
+            case 'a':
+            case 'I':
+            case 'ı':
+            case 'O':
+            case 'o':
+            case 'U':
+            case 'u':
                     System.out.println("'" + charecter + "'" + " kalın sesli bir harftir.");
-            case 'E', 'İ', 'Ö', 'Ü', 'e', 'i', 'ö', 'ü' ->
+            case 'E':
+            case 'e':
+            case 'İ':
+            case 'i':
+            case 'Ö':
+            case 'ö':
+            case 'Ü':
+            case 'ü':
                     System.out.println("'" + charecter + "'" + " ince sesli bir harftir.");
-            default -> System.out.println("sesli bir harf giriniz");
+            default:
+                System.out.println("sesli bir harf giriniz");
         }
     }
 

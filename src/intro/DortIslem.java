@@ -1,3 +1,5 @@
+package intro;
+
 public class DortIslem {
 
     public int Topla(int sayi1, int sayi2){
