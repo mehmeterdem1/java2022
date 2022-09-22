@@ -1,4 +1,4 @@
-package intro.miniProjects;
+package miniProjects;
 
 import java.util.*;
 

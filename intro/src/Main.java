@@ -1,6 +1,4 @@
-package intro;
-
-import intro.miniProjects.*;
+import miniProjects.*;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package intro.miniProjects;
+package miniProjects;
 
 public class SayiBul {
 

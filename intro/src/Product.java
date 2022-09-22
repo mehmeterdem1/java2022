@@ -1,5 +1,3 @@
-package intro;
-
 public class Product {
 
     int id;
