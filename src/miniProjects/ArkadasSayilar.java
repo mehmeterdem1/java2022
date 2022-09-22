@@ -1,3 +1,5 @@
+package miniProjects;
+
 public class ArkadasSayilar {
     public void arkadasSayiHesapla(int number1, int number2) {
 

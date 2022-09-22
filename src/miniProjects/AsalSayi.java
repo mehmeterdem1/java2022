@@ -1,3 +1,5 @@
+package miniProjects;
+
 public class AsalSayi {
     private static void asalSayi(int number) {
         if (number % 2 == 0 || number % 3 == 0) {

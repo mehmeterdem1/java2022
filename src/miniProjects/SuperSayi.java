@@ -1,3 +1,5 @@
+package miniProjects;
+
 public class SuperSayi{
 
     public void superSayiHesapla(int number){

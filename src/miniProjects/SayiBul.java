@@ -1,3 +1,5 @@
+package miniProjects;
+
 public class SayiBul {
 
     public void sayiBulma(int aranacak){

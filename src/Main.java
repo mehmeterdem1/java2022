@@ -1,3 +1,5 @@
+import miniProjects.*;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -40,6 +42,30 @@ public class Main {
 
         SayiBul sayiBul = new SayiBul();
         sayiBul.sayiBulma(17);
+
+
+        DortIslem dortIslem = new DortIslem();
+
+        int sonucTopla = dortIslem.Topla(3,4);
+        int sonucCarp = dortIslem.Carp(3,4);
+        int sonucCikar = dortIslem.Cikar(3,4);
+        double sonucBol = dortIslem.Bol(12,4);
+
+        System.out.println(sonucTopla);
+        System.out.println(sonucBol);
+        System.out.println(sonucCarp);
+        System.out.println(sonucCikar);
+
+
+        Product product = new Product();
+        product.name = "Laptop";
+        product.id = 1;
+        product.description = "Asus Laptop";
+        product.price = 5000;
+        product.stockAmount = 3;
+
+        ProductManager productManager = new ProductManager();
+        productManager.Add(product);
 
 
     }

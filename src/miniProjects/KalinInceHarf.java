@@ -1,32 +1,16 @@
-import java.util.ArrayList;
-import java.util.List;
+package miniProjects;
+
+import java.util.*;
 
 public class KalinInceHarf {
     public void vovelControl(char charecter) {
 
         switch (charecter) {
-            case 'A':
-            case 'a':
-            case 'I':
-            case 'ı':
-            case 'O':
-            case 'o':
-            case 'U':
-            case 'u':
-                System.out.println("'" + charecter + "'" + " kalın sesli bir harftir.");
-                break;
-            case 'E':
-            case 'İ':
-            case 'Ö':
-            case 'Ü':
-            case 'e':
-            case 'i':
-            case 'ö':
-            case 'ü':
-                System.out.println("'" + charecter + "'" + " ince sesli bir harftir.");
-                break;
-            default:
-                System.out.println("sesli bir harf giriniz");
+            case 'A', 'a', 'I', 'ı', 'O', 'o', 'U', 'u' ->
+                    System.out.println("'" + charecter + "'" + " kalın sesli bir harftir.");
+            case 'E', 'İ', 'Ö', 'Ü', 'e', 'i', 'ö', 'ü' ->
+                    System.out.println("'" + charecter + "'" + " ince sesli bir harftir.");
+            default -> System.out.println("sesli bir harf giriniz");
         }
     }
 
