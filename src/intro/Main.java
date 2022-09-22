@@ -60,14 +60,15 @@ public class Main {
 
 
         Product product = new Product();
+
         product.setName("Laptop");
-        product.setid(1);
-        product.setdescription("Asus Laptop");
-        product.price = 5000;
-        product.stockAmount = 3;
+        product.setId(1);
+        product.setDescription("Asus Laptop");
+        product.setStockAmount(3);
+        product.setPrice(5000);
 
         ProductManager productManager = new ProductManager();
-        productManager.Add(product);
+        productManager.addProduct(product);
 
 
     }

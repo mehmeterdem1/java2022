@@ -9,7 +9,7 @@ public class Product {
     int stockAmount;
 
     public int getId() {
-        return this.id;
+        return id;
     }
 
     public void setId(int id) {
@@ -46,11 +46,5 @@ public class Product {
 
     public void setStockAmount(int stockAmount) {
         this.stockAmount = stockAmount;
-    }
-
-    public void setid(int i) {
-    }
-
-    public void setdescription(String asus_laptop) {
     }
 }
