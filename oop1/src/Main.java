@@ -1,5 +1,3 @@
-package oop1;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -47,6 +45,11 @@ public class Main {
 
 
         Customer[] customers = {individualCustomer, corporateCustomer};
+        for (Customer customerElement : customers) {
+            System.out.println(customerElement.getId());
+        }
+
+
 
     }
 }
