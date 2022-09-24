@@ -1,3 +1,5 @@
+package day1;
+
 public class Product {
 
     int id;

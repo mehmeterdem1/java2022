@@ -1,4 +1,4 @@
-package miniProjects;
+package day1.miniProjects;
 
 public class AsalSayi {
     private static void asalSayi(int number) {

@@ -1,3 +1,14 @@
+package day2;
+
+import ReCapDemo_Classes.DortIslem;
+import day2.day2Hm.CustomerManager;
+import day2.oop1.CorporateCustomer;
+import day2.oop1.Customer;
+import day2.oop1.IndividualCustomer;
+import day2.oop1.Product;
+
+import static day2.day2Hm.Methods2.*;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -49,7 +60,23 @@ public class Main {
             System.out.println(customerElement.getId());
         }
 
+        String mesaj = "Bugün hava çok güzel";
+        String yeniMesaj = sehirVer();
+        System.out.println(mesaj);
+        System.out.println(yeniMesaj);
+        int sayi = topla(15,7);
+        System.out.println(sayi);
 
+        int toplam = topla2(2,3,5,8);
+        System.out.println(toplam);
 
+        CustomerManager customerManager = new CustomerManager();
+        customerManager.Add();
+        customerManager.Remove();
+        customerManager.Update();
+
+        DortIslem dortIslem = new DortIslem();
+        int sonuc = dortIslem.Topla(3,4);
+        System.out.println(sonuc);
     }
 }

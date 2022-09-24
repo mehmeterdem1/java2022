@@ -1,4 +1,4 @@
-package miniProjects;
+package day1.miniProjects;
 
 import java.util.*;
 

@@ -1,4 +1,7 @@
-import miniProjects.*;
+package day1;
+
+import day1.miniProjects.*;
+import day2.day2Hm.Methods;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,6 +70,9 @@ public class Main {
 
         ProductManager productManager = new ProductManager();
         productManager.addProduct(product);
+
+        Methods methods = new Methods();
+        methods.sayiBulmaca(5);
 
 
     }

@@ -1,4 +1,4 @@
-package miniProjects;
+package day1.miniProjects;
 
 public class ArkadasSayilar {
     public void arkadasSayiHesapla(int number1, int number2) {

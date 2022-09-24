@@ -1,3 +1,5 @@
+package day2.oop1;
+
 public class Customer {
     private int id;
     private String customerNumber;
