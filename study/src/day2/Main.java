@@ -1,6 +1,6 @@
 package day2;
 
-import ReCapDemo_Classes.DortIslem;
+import day2.day2Hm.ReCapDemo_Classes.DortIslem;
 import day2.day2Hm.CustomerManager;
 import day2.oop1.CorporateCustomer;
 import day2.oop1.Customer;

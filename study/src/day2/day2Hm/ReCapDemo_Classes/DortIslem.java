@@ -1,4 +1,4 @@
-package ReCapDemo_Classes;
+package day2.day2Hm.ReCapDemo_Classes;
 
 public class DortIslem {
 
