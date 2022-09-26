@@ -1,12 +1,23 @@
 package day2.oop1;
 
-public class Product {
+public class Product extends day1.Product {
 
     private String name;
     private double unitPrice;
     private double discount;
     private String imageUrl1;
     private int unitsInStock;
+
+    private  String description;
+
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 
     public String getName() {
         return name;

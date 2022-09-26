@@ -1,5 +1,6 @@
 package day2;
 
+import day1.ProductManager;
 import day2.day2Hm.ReCapDemo_Classes.DortIslem;
 import day2.day2Hm.CustomerManager;
 import day2.oop1.CorporateCustomer;
@@ -78,5 +79,16 @@ public class Main {
         DortIslem dortIslem = new DortIslem();
         int sonuc = dortIslem.Topla(3,4);
         System.out.println(sonuc);
+
+        Product product = new Product();
+        product.setName("Laptop");
+        product.setDescription("Asus Laptop");
+        product.setUnitPrice(5000);
+        product.setUnitsInStock(3);
+
+        ProductManager productManager = new ProductManager();
+        productManager.addProduct(product);
+
     }
+
 }
