@@ -1,4 +1,4 @@
-package day3.YouTubeDemo;
+package day3.odev1.YouTubeDemo;
 
 public class TeacherCreditManager extends BaseCreditManager implements ICreditManager {
     @Override
