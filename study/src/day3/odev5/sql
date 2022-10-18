@@ -1,0 +1,41 @@
+select * from Customers; --Customers tablosunun tüm verilerini seçer.
+
+select ContactName, CompanyName, City from Customers;
+
+select ContactName Adi, CompanyName SirketAdi, City Sehir from Customers; --Alias
+
+select * from Customers where City = 'London';
+
+--case insensitive
+sELecT * from Products where categoryId=1 or categoryId=3;
+
+select * from Products where categoryId=1 and UnitPrice>=10;
+
+select * from Products order by CategoryId, ProductName;
+
+select * from Products order by CategoryId, ProductName desc;
+
+select * from Products where categoryId=1 order by CategoryId, ProductName desc;
+
+select count(*) from Products where CategoryId;
+
+select categoryId, count(*) from products group by CategoryId;
+
+select categoryId, count(*) from products group by CategoryId having count(*)<10;
+
+select Products.ProductId, Products.ProductName, Products.UnitPrice, Categories.CompanyName
+from Products inner join Categories
+on Products.CategoryId = Categories.CategoryId
+where Products.UnitPrice > 10;
+
+--DTO: Data Transformation Object
+
+select * from Products p left join [Order Details] od
+on p.ProductId = od.ProductId
+inner join Orders o
+on o.OrderId = od.OrderId
+
+select * from Customers c left join Orders o
+on c.CustomerId = o.CustomerId
+where o.CustomerId is null
+
